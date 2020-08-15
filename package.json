@@ -1,0 +1,41 @@
+{
+  "name": "passygen",
+  "version": "1.0.0",
+  "description": "A semantic password generator",
+  "main": "index.html",
+  "scripts": {
+    "dev": "rm -rf docs/* && NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run dev -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeegCL/passygen.git"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "react",
+    "semantic"
+  ],
+  "author": "ZeegCL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZeegCL/passygen/issues"
+  },
+  "homepage": "https://github.com/ZeegCL/passygen#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "laravel-mix": "^5.0.4",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.2"
+  }
+}
