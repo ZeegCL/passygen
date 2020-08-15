@@ -16,6 +16,7 @@ jobs:
     - run: |
         git config user.name ZeegCL
         git config user.email hello.zeegcl@gmail.com
+        git fetch --depth=0 origin demo
         git checkout demo
         git rebase master
     - name: Use NodeJS 13.x
