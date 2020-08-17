@@ -1,6 +1,6 @@
 {
-    "/docs/js/app.js": "/docs/js/app.js",
-    "/docs/css/app.css": "/docs/css/app.css",
-    "/docs/index.html": "/docs/index.html",
-    "/docs/css/vendor.css": "/docs/css/vendor.css"
+    "/build/js/app.js": "/build/js/app.js",
+    "/build/css/app.css": "/build/css/app.css",
+    "/build/index.html": "/build/index.html",
+    "/build/css/vendor.css": "/build/css/vendor.css"
 }
