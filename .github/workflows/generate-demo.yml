@@ -18,7 +18,7 @@ jobs:
         git config user.email hello.zeegcl@gmail.com
         git fetch --depth=1 origin gh-pages
         git checkout gh-pages
-        git rebase --autostash master
+        git rebase --force --autostash master
     - name: Use NodeJS 13.x
       uses: actions/setup-node@v1
       with:
