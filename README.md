@@ -1,5 +1,5 @@
 # Passygen
-A semantic password generator.
+A semantic password generator. [Check the demo](https://zealous-yonath-da83c6.netlify.app/)
 
 ## About
 
